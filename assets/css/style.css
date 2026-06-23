@@ -8612,6 +8612,13 @@ blockquote.vs-quote .quote-author {
 .service-desc p{
   margin-bottom: 0;
 }
+.service-style1:hover .service-desc {
+  position: relative;
+z-index: 1000;
+}
+.service-style1:hover .service-desc p{
+  color: whitesmoke;
+}
 .service-style1 .service-icon {
   display: inline-block;
   width: 70px;
