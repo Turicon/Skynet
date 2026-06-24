@@ -90,8 +90,8 @@ Version: 1.0.0
   --main-container: 1220px;
   --container-gutters: 30px;
   --section-space: 120px;
-  --section-space-mobile: 80px;
-  --section-title-space: 80px;
+  --section-space-mobile: 50px;
+  --section-title-space: 50px;
   --ripple-ani-duration: 5s;
 }
 
@@ -2244,7 +2244,7 @@ textarea.is-invalid {
 @media (max-width: 767px) {
   .sec-title3.h1,
   .sec-title.h1 {
-    font-size: 30px;
+    font-size: 27px;
   }
   .sec-subtitle {
     font-size: 16px;
@@ -16195,4 +16195,13 @@ z-index: 1000;
   .hero-slick-wrapper .slick-next {
     display: none !important;
   }
+  .feature-style1 {
+    background-color: var(--white-color);
+    padding: 50px 28px 40px 28px;
+    box-shadow: 0px 18px 13px rgba(234, 240, 250, 0.5);
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 30px;
+    min-height: auto;
+}
 }
